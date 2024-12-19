@@ -96,9 +96,9 @@
       </div>
 
       <!-- <div class="column has-text-centered"> -->
-        <!-- <div class="publication-links"> -->
+      <!-- <div class="publication-links"> -->
 
-          <!-- <span class="link-block">
+      <!-- <span class="link-block">
             <a href="https://arxiv.org/abs/2407.11522" class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1.0em" height="1.0em" viewBox="0 0 24 24">
@@ -111,8 +111,8 @@
           </span> -->
 
 
-          <!-- Video Link. -->
-          <!-- <span class="link-block">
+      <!-- Video Link. -->
+      <!-- <span class="link-block">
                 <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -121,8 +121,8 @@
                   <span>Video</span>
                 </a>
               </span> -->
-          <!-- Code Link. -->
-          <!-- <span class="link-block">
+      <!-- Code Link. -->
+      <!-- <span class="link-block">
             <a href="https://github.com/MM-FIRE/FIRE" class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fab fa-github"></i>
@@ -131,10 +131,10 @@
             </a>
           </span> -->
 
-          <!-- Data Link. need changing -->
-          <!-- <span class="link-block"> -->
-            <!-- <a target="_blank" href="" -->
-            <!-- <a target="_blank" href="https://huggingface.co/datasets/PengxiangLi/FIRE/"
+      <!-- Data Link. need changing -->
+      <!-- <span class="link-block"> -->
+      <!-- <a target="_blank" href="" -->
+      <!-- <a target="_blank" href="https://huggingface.co/datasets/PengxiangLi/FIRE/"
               class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fa fa-database"></i>
@@ -142,9 +142,9 @@
               <span>Data</span>
             </a>
           </span> -->
-          <!-- <span class="link-block"> -->
-            <!-- <a target="_blank" href="" -->
-            <!-- <a target="_blank" href="https://huggingface.co/li-qing/llava-next-llama3-8b-student-fire/tree/main"
+      <!-- <span class="link-block"> -->
+      <!-- <a target="_blank" href="" -->
+      <!-- <a target="_blank" href="https://huggingface.co/li-qing/llava-next-llama3-8b-student-fire/tree/main"
               class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fa fa-share-square"></i>
@@ -152,9 +152,9 @@
               <span>Model</span>
             </a>
           </span> -->
-          <!-- <span class="link-block"> -->
-            <!-- <a target="_blank" href="" -->
-            <!-- <a target="_blank" href="https://li-qing-fire.hf.space"
+      <!-- <span class="link-block"> -->
+      <!-- <a target="_blank" href="" -->
+      <!-- <a target="_blank" href="https://li-qing-fire.hf.space"
               class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fa fa-images"></i>
@@ -163,8 +163,8 @@
             </a>
           </span>
           <span class="link-block"> -->
-            <!-- <a target="_blank" href="" -->
-            <!-- <a target="_blank" href="https://x.com/Sealiqing/status/1819279627438973133"
+      <!-- <a target="_blank" href="" -->
+      <!-- <a target="_blank" href="https://x.com/Sealiqing/status/1819279627438973133"
               class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1.0em" height="1.0em"
@@ -182,9 +182,9 @@
                 </svg>
               </span>
               <span>Twitter</span> -->
-            <!-- </a> -->
-          <!-- </span> -->
-          <!-- <span class="link-block">
+      <!-- </a> -->
+      <!-- </span> -->
+      <!-- <span class="link-block">
                 <a href="file/clova_cvpr24_poster.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -194,7 +194,7 @@
                 </a>
               </span> -->
 
-          <!-- <span class="link-block">
+      <!-- <span class="link-block">
                 <a href="file/clova_slides.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -204,7 +204,7 @@
                 </a>
               </span> -->
 
-        <!-- </div> -->
+      <!-- </div> -->
       <!-- </div> -->
 
 
@@ -385,22 +385,23 @@
   </div>
 
 
-  <section class="section" id="BibTeX" style="text-align: left;">
+  <!-- <section class="section" id="BibTeX" style="text-align: left;">
     <div class="container is-max-desktop content" style="max-width: 100%; margin: 0 auto;">
       <h3 class="title" style="font-size: small;">
         BibTeX
       </h3>
       <div class="bibtex-container">
-        <pre><code class="language-bibtex">@article{li2024fire,
+        <pre><code class="language-bibtex">
+          @article{li2024fire,
       title={FIRE: A Dataset for Feedback Integration and Refinement Evaluation of Multimodal Models},
       author={Li, Pengxiang and Gao, Zhi and Zhang, Bofei and Yuan, Tao and Wu, Yuwei and Harandi, Mehrtash and Jia, Yunde and Zhu, Song-Chun and Li, Qing},
       journal={Advances in Neural Information Processing Systems},
       year={2024}
-    }
+      }
 </code></pre>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   <div class="footer">
