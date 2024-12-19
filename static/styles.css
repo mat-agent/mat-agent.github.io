@@ -1,0 +1,60 @@
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    /* border: 2px solid #333; */
+    padding: 10px;
+}
+
+p {
+    font-size: 22px;
+    margin-bottom: 15px;
+    /* border: 1px solid #333; */
+    padding: 10px;
+}
+
+.model-responses {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.model-response {
+    width: 48%; /* 每个响应占据 1/2 的宽度 */
+    border: 1px solid #333;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 28%; /* 每个按钮占据 1/3 的宽度 */
+    margin: 10px 0;
+    padding: 15px 30px;
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+.image-container {
+    margin: 0 auto 16px auto;
+    text-align: center;
+    max-width: 50%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
