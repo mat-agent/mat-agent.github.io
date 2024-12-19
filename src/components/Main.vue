@@ -518,7 +518,7 @@ onMounted(() => {
 }
 
 .teaser {
-  max-width: 1080px;
+  max-width: 840px;
   margin: 0 auto;
 }
 
