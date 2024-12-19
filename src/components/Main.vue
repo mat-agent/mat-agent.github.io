@@ -218,7 +218,7 @@
 
     <div class="section">
       <el-card class="teaser">
-        <el-image src="./teaser4.png"></el-image>
+        <el-image src="./teaser.png"></el-image>
       </el-card>
     </div>
 
