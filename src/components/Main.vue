@@ -1,8 +1,9 @@
 <template>
+
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-      <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" -->
-        <!-- rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" -->
+    <!-- rel="stylesheet"> -->
   </head>
   <div class="main">
     <div class="section header">
@@ -12,7 +13,8 @@
         <!-- <span class="uns">F</span>eedback <span class="uns">I</span>ntegration and -->
         <!-- <span class="uns">R</span>efinement <span class="uns">E</span>valuation -->
         <!-- <br>of Multimodal Models -->
-        <span class="uns">M</span>ulti-modal <span class="uns">A</span>gent <span class="uns">T</span>uning: Building a VLM-Driven Agent for Efficient Tool Usage
+        <span class="uns">M</span>ulti-modal <span class="uns">A</span>gent <span class="uns">T</span>uning: Building a
+        VLM-Driven Agent for Efficient Tool Usage
         <!-- A Dataset for
         <span class="uns">F</span>eedback <span class="uns">I</span>ntegration and
         <br><span class="uns">R</span>efinement <span class="uns">E</span>valuation
@@ -20,8 +22,8 @@
       </div>
 
       <!-- <div> -->
-        <!-- # write the conference name here,make it in the middle -->
-        <!-- <div class="conference">NeurIPS 2024 Datasets and Benchmarks Track (Poster)</div>
+      <!-- # write the conference name here,make it in the middle -->
+      <!-- <div class="conference">NeurIPS 2024 Datasets and Benchmarks Track (Poster)</div>
       </div> -->
 
       <div class="author-list">
@@ -93,30 +95,21 @@
         </span>
       </div>
 
-      <div class="column has-text-centered">
-        <div class="publication-links">
-            <!-- <span class="link-block">
-                <a href="https://arxiv.org/abs/2407.11522"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-alt"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> -->
+      <!-- <div class="column has-text-centered"> -->
+        <!-- <div class="publication-links"> -->
 
-            <span class="link-block">
-            <a href="https://arxiv.org/abs/2407.11522"
-              class="external-link button is-normal is-rounded is-dark">
+          <!-- <span class="link-block">
+            <a href="https://arxiv.org/abs/2407.11522" class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="1.0em" height="1.0em" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M3.842 0a1 1 0 0 0-.922.608c-.153.369-.044.627.294 1.111l6.919 8.36l-1.023 1.106a1.04 1.04 0 0 0 .003 1.423l1.23 1.313l-5.44 6.444c-.28.3-.453.823-.297 1.199a1.025 1.025 0 0 0 .959.635a.91.91 0 0 0 .689-.34l5.783-6.126l7.49 8.005a.85.85 0 0 0 .684.26a.96.96 0 0 0 .877-.615c.158-.377-.017-.75-.306-1.14L13.73 13.9l1.064-1.13a.963.963 0 0 0 .009-1.316L4.633.464S4.26.01 3.867 0zm0 .272h.017c.218.005.487.272.564.364l.005.006l.005.005l10.17 10.99a.69.69 0 0 1-.008.946l-1.066 1.133l-1.498-1.772l-8.6-10.39c-.328-.472-.352-.619-.26-.841a.73.73 0 0 1 .671-.44Zm14.341 1.57a.88.88 0 0 0-.655.242l-5.696 6.158l1.694 1.832l5.309-6.514c.325-.433.479-.66.325-1.029a1.12 1.12 0 0 0-.977-.689m-7.655 12.282l1.318 1.414l-5.786 6.13a.65.65 0 0 1-.496.26a.75.75 0 0 1-.706-.467c-.112-.269.036-.687.244-.909l.005-.005l.005-.006z"/>
-                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.0em" height="1.0em" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M3.842 0a1 1 0 0 0-.922.608c-.153.369-.044.627.294 1.111l6.919 8.36l-1.023 1.106a1.04 1.04 0 0 0 .003 1.423l1.23 1.313l-5.44 6.444c-.28.3-.453.823-.297 1.199a1.025 1.025 0 0 0 .959.635a.91.91 0 0 0 .689-.34l5.783-6.126l7.49 8.005a.85.85 0 0 0 .684.26a.96.96 0 0 0 .877-.615c.158-.377-.017-.75-.306-1.14L13.73 13.9l1.064-1.13a.963.963 0 0 0 .009-1.316L4.633.464S4.26.01 3.867 0zm0 .272h.017c.218.005.487.272.564.364l.005.006l.005.005l10.17 10.99a.69.69 0 0 1-.008.946l-1.066 1.133l-1.498-1.772l-8.6-10.39c-.328-.472-.352-.619-.26-.841a.73.73 0 0 1 .671-.44Zm14.341 1.57a.88.88 0 0 0-.655.242l-5.696 6.158l1.694 1.832l5.309-6.514c.325-.433.479-.66.325-1.029a1.12 1.12 0 0 0-.977-.689m-7.655 12.282l1.318 1.414l-5.786 6.13a.65.65 0 0 1-.496.26a.75.75 0 0 1-.706-.467c-.112-.269.036-.687.244-.909l.005-.005l.005-.006z" />
+                </svg>
               </span>
               <span>arXiv</span>
             </a>
-        </span>
-    
+          </span> -->
+
 
           <!-- Video Link. -->
           <!-- <span class="link-block">
@@ -129,40 +122,39 @@
                 </a>
               </span> -->
           <!-- Code Link. -->
-          <span class="link-block">
-            <a href="https://github.com/MM-FIRE/FIRE"
-              class="external-link button is-normal is-rounded is-dark">
+          <!-- <span class="link-block">
+            <a href="https://github.com/MM-FIRE/FIRE" class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fab fa-github"></i>
               </span>
               <span>Code</span>
             </a>
-          </span>
+          </span> -->
 
           <!-- Data Link. need changing -->
-          <span class="link-block">
+          <!-- <span class="link-block"> -->
             <!-- <a target="_blank" href="" -->
-            <a target="_blank" href="https://huggingface.co/datasets/PengxiangLi/FIRE/"
+            <!-- <a target="_blank" href="https://huggingface.co/datasets/PengxiangLi/FIRE/"
               class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fa fa-database"></i>
               </span>
               <span>Data</span>
             </a>
-          </span>
-          <span class="link-block">
+          </span> -->
+          <!-- <span class="link-block"> -->
             <!-- <a target="_blank" href="" -->
-            <a target="_blank" href="https://huggingface.co/li-qing/llava-next-llama3-8b-student-fire/tree/main"
+            <!-- <a target="_blank" href="https://huggingface.co/li-qing/llava-next-llama3-8b-student-fire/tree/main"
               class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fa fa-share-square"></i>
               </span>
               <span>Model</span>
             </a>
-          </span>
-          <span class="link-block">
+          </span> -->
+          <!-- <span class="link-block"> -->
             <!-- <a target="_blank" href="" -->
-            <a target="_blank" href="https://li-qing-fire.hf.space"
+            <!-- <a target="_blank" href="https://li-qing-fire.hf.space"
               class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fa fa-images"></i>
@@ -170,18 +162,28 @@
               <span>Demo</span>
             </a>
           </span>
-                    <span class="link-block">
+          <span class="link-block"> -->
             <!-- <a target="_blank" href="" -->
-            <a target="_blank" href="https://x.com/Sealiqing/status/1819279627438973133"
+            <!-- <a target="_blank" href="https://x.com/Sealiqing/status/1819279627438973133"
               class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1.0em" height="1.0em" viewBox="0,0,256,256">
-<g fill="#e9e9e9" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M6.91992,6l14.2168,20.72656l-14.9082,17.27344h3.17773l13.13867,-15.22266l10.44141,15.22266h10.01367l-14.87695,-21.6875l14.08008,-16.3125h-3.17578l-12.31055,14.26172l-9.7832,-14.26172z"></path></g></g>
-</svg>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1.0em" height="1.0em"
+                  viewBox="0,0,256,256">
+                  <g fill="#e9e9e9" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <g transform="scale(5.12,5.12)">
+                      <path
+                        d="M6.91992,6l14.2168,20.72656l-14.9082,17.27344h3.17773l13.13867,-15.22266l10.44141,15.22266h10.01367l-14.87695,-21.6875l14.08008,-16.3125h-3.17578l-12.31055,14.26172l-9.7832,-14.26172z">
+                      </path>
+                    </g>
+                  </g>
+                </svg>
               </span>
-              <span>Twitter</span>
-            </a>
-          </span>
+              <span>Twitter</span> -->
+            <!-- </a> -->
+          <!-- </span> -->
           <!-- <span class="link-block">
                 <a href="file/clova_cvpr24_poster.pdf"
                    class="external-link button is-normal is-rounded is-dark">
@@ -202,15 +204,16 @@
                 </a>
               </span> -->
 
-        </div>
-      </div>
+        <!-- </div> -->
+      <!-- </div> -->
 
 
     </div>
 
 
     <div class="tldr">
-      <p><b>TL;DR</b> This paper proposes T3-Agent, a multi-modal agent tuned with the MM-Traj dataset for better tool-usage reasoning, boosting VLM performance by 20% on benchmarks.</p>
+      <p><b>TL;DR</b> This paper proposes T3-Agent, a multi-modal agent tuned with the MM-Traj dataset for better
+        tool-usage reasoning, boosting VLM performance by 20% on benchmarks.</p>
     </div>
 
     <div class="section">
@@ -223,15 +226,22 @@
     <div class="section">
       <div class="section-title">Introduction</div>
       <p class="intro">
-        The advancement of large language models (LLMs) prompts the development of multi-modal agents, which are used as a controller to call external tools, providing a feasible way to solve practical tasks.
-In this paper, we propose a multi-modal agent tuning method that automatically generates multi-modal tool-usage data and tunes a vision-language model (VLM) as the controller for powerful tool-usage reasoning.
-To preserve the data quality, we prompt the GPT-4o mini model to generate queries, files, and trajectories, followed by query-file and trajectory verifiers.
-Based on the data synthesis pipeline, we collect the MM-Traj dataset that contains 20K tasks with trajectories of tool usage.
-Then, we develop the T3-Agent via \underline{T}rajectory \underline{T}uning on VLMs for \underline{T}ool usage using MM-Traj.
-Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently achieves improvements on two popular VLMs: MiniCPM-V-8.5B and {Qwen2-VL-7B}, which outperforms untrained VLMs by $20\%$, showing the effectiveness of the proposed data synthesis pipeline, leading to high-quality data for tool-usage capabilities.
+        The advancement of large language models (LLMs) prompts the development of multi-modal agents, which are used as
+        a controller to call external tools, providing a feasible way to solve practical tasks.
+        In this paper, we propose a multi-modal agent tuning method that automatically generates multi-modal tool-usage
+        data and tunes a vision-language model (VLM) as the controller for powerful tool-usage reasoning.
+        To preserve the data quality, we prompt the GPT-4o mini model to generate queries, files, and trajectories,
+        followed by query-file and trajectory verifiers.
+        Based on the data synthesis pipeline, we collect the MM-Traj dataset that contains 20K tasks with trajectories
+        of tool usage.
+        Then, we develop the T3-Agent via \underline{T}rajectory \underline{T}uning on VLMs for \underline{T}ool usage
+        using MM-Traj.
+        Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently achieves improvements on two
+        popular VLMs: MiniCPM-V-8.5B and {Qwen2-VL-7B}, which outperforms untrained VLMs by $20\%$, showing the
+        effectiveness of the proposed data synthesis pipeline, leading to high-quality data for tool-usage capabilities.
       </p>
     </div>
-
+    <!-- 
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <div class="publication-video">
@@ -242,10 +252,10 @@ Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently a
             allowfullscreen></iframe>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
-    <div class="section">
+    <!-- <div class="section">
       <div class="section-title">FIRE Dataset</div>
       <p>Notable statistics of <img class="fire-icon" src="/icon2.png"><b>FIRE</b></p>
 
@@ -257,8 +267,8 @@ Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently a
         <br>
             <el-card class="teaser">
         <el-image src="./stats/s1-6.png"></el-image>
-      </el-card>
-      <!-- <el-carousel :interval="8000" height="450px">
+      </el-card> -->
+    <!-- <el-carousel :interval="8000" height="450px">
         <el-carousel-item>
           <el-image class="stats-img" src="./stats/piechart.webp"></el-image>
         </el-carousel-item>
@@ -272,8 +282,8 @@ Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently a
           <el-image class="stats-img" src="./stats/d1.webp"></el-image>
         </el-carousel-item>
       </el-carousel> -->
-    </div>
-    <div class="section">
+    <!-- </div> -->
+    <!-- <div class="section">
       <div class="section-title">Dataset construction</div>
       <p class="intro">We build  <img class="fire-icon" src="/icon2.png"> <b>FIRE-1.1M</b> (FIRE-100K + FIRE-1M) for training: We first prompt GPT-4V to generate 100K high-quality feedback-refinement conversations from 27 source datasets. To scale up the training set, we train models on FIRE-100K and further simulate 1M dialogues as additional training data.</p>
          
@@ -294,18 +304,18 @@ Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently a
         <b>Free dialogues.</b> We use a student model and a teacher model to perform free dialogues, and evaluate how fast and how much the student model can improve its answers based on the feedback from the teacher model. We introduce four metrics: average turn (AT), average dialogue refinement (ADR), average turn refinement (ATR), and refinement ratio (RR) for free dialogues. The AT metric evaluates how fast a VLM could achieve a satisfactory result based on feedback.  The ADR metric evaluates how much knowledge VLMs could learn from feedback in a dialogue. ATR evaluates how much knowledge VLMs could learn from feedback in one turn. RR measures the proportion of data that have a wrong initial response and a correct final response (i.e., how much data are corrected based on feedback). (Please refer to the paper for more details about the four metrics).
       
       
-      </p>
+      </p> -->
 
-        <el-card class="stats-img-1">
+    <!-- <el-card class="stats-img-1">
         <el-image src="./stats/Slide1.png"></el-image>
       </el-card>
         <br>
             <el-card class="stats-img-1">
         <el-image src="./stats/Slide2.png"></el-image>
-      </el-card>
+      </el-card> -->
 
 
-      <!-- <el-carousel :interval="8000" height="350px">
+    <!-- <el-carousel :interval="8000" height="350px">
         <el-carousel-item>
           
         </el-carousel-item>
@@ -336,7 +346,7 @@ Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently a
         </el-carousel-item>
 
       </el-carousel> -->
-    </div>
+    <!-- </div> -->
     <!-- <div class="section">
       <div class="section-title">Results</div>
 
@@ -375,22 +385,22 @@ Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently a
   </div>
 
 
-  <section class="section" id="BibTeX" style="text-align: left;" >  
-  <div class="container is-max-desktop content" style="max-width: 100%; margin: 0 auto;">  
-    <h3 class="title" style="font-size: small;">  
-      BibTeX
-    </h3>
-  <div class="bibtex-container">
-    <pre><code class="language-bibtex">@article{li2024fire,
+  <section class="section" id="BibTeX" style="text-align: left;">
+    <div class="container is-max-desktop content" style="max-width: 100%; margin: 0 auto;">
+      <h3 class="title" style="font-size: small;">
+        BibTeX
+      </h3>
+      <div class="bibtex-container">
+        <pre><code class="language-bibtex">@article{li2024fire,
       title={FIRE: A Dataset for Feedback Integration and Refinement Evaluation of Multimodal Models},
       author={Li, Pengxiang and Gao, Zhi and Zhang, Bofei and Yuan, Tao and Wu, Yuwei and Harandi, Mehrtash and Jia, Yunde and Zhu, Song-Chun and Li, Qing},
       journal={Advances in Neural Information Processing Systems},
       year={2024}
     }
 </code></pre>
-  </div>
-</div>
-</section>
+      </div>
+    </div>
+  </section>
 
 
   <div class="footer">
@@ -424,8 +434,8 @@ const loadData3 = async () => {
 
 onMounted(() => {
   loadData1(),
-  loadData2(),
-  loadData3()
+    loadData2(),
+    loadData3()
 })
 </script>
 
@@ -488,12 +498,14 @@ onMounted(() => {
   font-size: 2em;
   font-weight: bold;
 }
+
 .conference {
   text-align: center;
   margin: 20px;
   font-size: 1.5em;
   color: #665;
 }
+
 .uns {
   text-decoration: underline;
 }
@@ -514,10 +526,11 @@ onMounted(() => {
 }
 
 .stats-img-1 {
-    max-width: 95%;
-    max-height: 95%;
-    object-fit: contain;
-  }
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+}
+
 .intro {
   text-align: justify;
   font-size: 1em;
@@ -568,21 +581,29 @@ onMounted(() => {
 .external-link .fas {
   font-size: 18px;
 }
- 
+
 .bibtex-container {
-  background-color: #e1e4e9; /* Change background color to match the theme */
-  padding: 1em; /* Add padding for better readability */
-  border-radius: 5px; /* Add border radius for rounded corners */
+  background-color: #e1e4e9;
+  /* Change background color to match the theme */
+  padding: 1em;
+  /* Add padding for better readability */
+  border-radius: 5px;
+  /* Add border radius for rounded corners */
   text-align: left;
-  white-space: pre; /* Preserve formatting and prevent line breaks */
-  overflow-x: auto; /* Add horizontal scroll bar */
+  white-space: pre;
+  /* Preserve formatting and prevent line breaks */
+  overflow-x: auto;
+  /* Add horizontal scroll bar */
 }
+
 pre {
   margin: 0;
 }
+
 code {
-  font-family: 'Courier New', Courier, monospace; /* Change font to monospace */
-  color: #0a0b0b; /* Change text color to match the theme */
+  font-family: 'Courier New', Courier, monospace;
+  /* Change font to monospace */
+  color: #0a0b0b;
+  /* Change text color to match the theme */
 }
 </style>
-
