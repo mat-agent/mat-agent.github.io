@@ -342,7 +342,7 @@ Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently a
 
     </div> -->
 
-    <div class="section">
+    <!-- <div class="section">
       <div class="section-title">Examples of FIRE-100K</div>
       <p class="intro">We randomly sampled some examples from FIRE-100K and show them here. </p>
       <el-carousel :interval="10000" type="card" height="1400px" indicator-position="none">
@@ -371,7 +371,7 @@ Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently a
           <Dialog class="example-dialog" :data="d" />
         </el-carousel-item>
       </el-carousel>
-    </div>
+    </div> -->
   </div>
 
 
