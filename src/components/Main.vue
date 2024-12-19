@@ -234,10 +234,10 @@
         followed by query-file and trajectory verifiers.
         Based on the data synthesis pipeline, we collect the MM-Traj dataset that contains 20K tasks with trajectories
         of tool usage.
-        Then, we develop the T3-Agent via \underline{T}rajectory \underline{T}uning on VLMs for \underline{T}ool usage
+        Then, we develop the T3-Agent via  <span class="uns">T</span>rajectory  <span class="uns">T</span>uning on VLMs for  <span class="uns">T</span>ool usage
         using MM-Traj.
         Evaluations on the GTA and GAIA benchmarks show that the T3-Agent consistently achieves improvements on two
-        popular VLMs: MiniCPM-V-8.5B and {Qwen2-VL-7B}, which outperforms untrained VLMs by $20\%$, showing the
+        popular VLMs: MiniCPM-V-8.5B and Qwen2-VL-7B, which outperforms untrained VLMs by 20%, showing the
         effectiveness of the proposed data synthesis pipeline, leading to high-quality data for tool-usage capabilities.
       </p>
     </div>
