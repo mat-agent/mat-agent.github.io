@@ -64,7 +64,7 @@
         </span>
         <span class="author">
           <el-link href="https://www.zhusongchun.net/">Song-Chun Zhu</el-link>
-          <span class="ind">2,1,5</span>,
+          <span class="ind">1,2,5</span>,
         </span>
         <span class="author">
           <el-link href="https://liqing.io/">Qing Li</el-link>
