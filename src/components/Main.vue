@@ -98,8 +98,8 @@
       <!-- <div class="column has-text-centered"> -->
       <!-- <div class="publication-links"> -->
 
-      <!-- <span class="link-block">
-            <a href="https://arxiv.org/abs/2407.11522" class="external-link button is-normal is-rounded is-dark">
+      <span class="link-block">
+            <a href="https://arxiv.org/pdf/2412.15606" class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1.0em" height="1.0em" viewBox="0 0 24 24">
                   <path fill="currentColor"
@@ -108,7 +108,7 @@
               </span>
               <span>arXiv</span>
             </a>
-          </span> -->
+          </span>
 
 
       <!-- Video Link. -->
