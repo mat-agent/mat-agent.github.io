@@ -440,23 +440,26 @@
     </div>
 
 
-    <!-- <section class="section" id="BibTeX" style="text-align: left;">
+    <section class="section" id="BibTeX" style="text-align: left;">
     <div class="container is-max-desktop content" style="max-width: 100%; margin: 0 auto;">
       <h3 class="title" style="font-size: small;">
         BibTeX
       </h3>
       <div class="bibtex-container">
         <pre><code class="language-bibtex">
-          @article{li2024fire,
-      title={FIRE: A Dataset for Feedback Integration and Refinement Evaluation of Multimodal Models},
-      author={Li, Pengxiang and Gao, Zhi and Zhang, Bofei and Yuan, Tao and Wu, Yuwei and Harandi, Mehrtash and Jia, Yunde and Zhu, Song-Chun and Li, Qing},
-      journal={Advances in Neural Information Processing Systems},
-      year={2024}
-      }
+    @misc{gao2024multimodalagenttuningbuilding,
+      title={Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage}, 
+      author={Zhi Gao and Bofei Zhang and Pengxiang Li and Xiaojian Ma and Tao Yuan and Yue Fan and Yuwei Wu and Yunde Jia and Song-Chun Zhu and Qing Li},
+      year={2024},
+      eprint={2412.15606},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2412.15606}, 
+    }
 </code></pre>
       </div>
     </div>
-  </section> -->
+  </section>
 
 
     <div class="footer">
