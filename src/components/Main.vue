@@ -447,7 +447,7 @@
       </h3>
       <div class="bibtex-container">
         <pre><code class="language-bibtex">
-    @misc{gao2024multimodalagenttuningbuilding,
+    @article{gao2024multimodalagenttuningbuilding,
       title={Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage}, 
       author={Zhi Gao and Bofei Zhang and Pengxiang Li and Xiaojian Ma and Tao Yuan and Yue Fan and Yuwei Wu and Yunde Jia and Song-Chun Zhu and Qing Li},
       year={2024},
