@@ -67,7 +67,7 @@
         </span>
         <span class="org">
           <span class="ind">2</span>
-          Beijing Institute for Artificial General Intelligence
+          Beijing Institute for General Artificial Intelligence
         </span>
         <br>
         <span class="org">
