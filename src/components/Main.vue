@@ -135,8 +135,8 @@
 
  
  
-      <video controls>
-          <source src="./mat-video.webm" type="video/webm">
+      <video  width="80%" height=auto controls="/poster.png">
+          <source src="/mat-video.webm" type="video/webm">
       </video>
  
 
