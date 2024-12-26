@@ -135,7 +135,7 @@
 
  
  
-      <video controls poster="./stats/poster.png">
+      <video controls poster="./poster.png">
           <source src="./mat-video.webm" type="video/webm">
       </video>
  
