@@ -4,6 +4,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" -->
     <!-- rel="stylesheet"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <div class="main">
     <div class="section header">
@@ -242,6 +245,23 @@
         effectiveness of the proposed data synthesis pipeline, leading to high-quality data for tool-usage capabilities.
       </p>
     </div>
+
+
+ 
+      <!-- <h1>HTML Video Player</h1> -->
+      <!-- Video Player -->
+      <!-- <h1>Video </h1> -->
+      <!-- Autoplay Video -->
+      <!-- <video width="640" height="360" autoplay muted loop>-->
+      <video width="960" height="480" controls poster="./stats/poster.png"> 
+          <source src="./mat-video.mp4" type="video/mp4">
+          <p>Your browser does not support HTML video.</p>
+      </video>
+      <!-- </video> -->
+ 
+
+  
+
     <!-- 
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
