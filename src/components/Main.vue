@@ -2,32 +2,18 @@
 
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" -->
-    <!-- rel="stylesheet"> -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <div class="main">
     <div class="section header">
       <div class="title"><img class="mat-icon" src="/icon2.png">MAT</div>
       <div class="subtitle">
-        <!-- A Dataset for<br> -->
-        <!-- <span class="uns">F</span>eedback <span class="uns">I</span>ntegration and -->
-        <!-- <span class="uns">R</span>efinement <span class="uns">E</span>valuation -->
-        <!-- <br>of Multimodal Models -->
         <span class="uns">M</span>ulti-modal <span class="uns">A</span>gent <span class="uns">T</span>uning: Building a
         VLM-Driven Agent for Efficient Tool Usage
-        <!-- A Dataset for
-        <span class="uns">F</span>eedback <span class="uns">I</span>ntegration and
-        <br><span class="uns">R</span>efinement <span class="uns">E</span>valuation
-        of Multimodal Models -->
+
       </div>
 
-      <!-- <div> -->
-      <!-- # write the conference name here,make it in the middle -->
-      <!-- <div class="conference">NeurIPS 2024 Datasets and Benchmarks Track (Poster)</div>
-      </div> -->
 
       <div class="author-list">
 
@@ -98,9 +84,6 @@
         </span>
       </div>
 
-      <!-- <div class="column has-text-centered"> -->
-      <!-- <div class="publication-links"> -->
-
       <span class="link-block">
         <a href="https://arxiv.org/pdf/2412.15606" class="external-link button is-normal is-rounded is-dark">
           <span class="icon">
@@ -112,103 +95,6 @@
           <span>arXiv</span>
         </a>
       </span>
-
-
-      <!-- Video Link. -->
-      <!-- <span class="link-block">
-                <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span> -->
-      <!-- Code Link. -->
-      <!-- <span class="link-block">
-            <a href="https://github.com/MM-FIRE/FIRE" class="external-link button is-normal is-rounded is-dark">
-              <span class="icon">
-                <i class="fab fa-github"></i>
-              </span>
-              <span>Code</span>
-            </a>
-          </span> -->
-
-      <!-- Data Link. need changing -->
-      <!-- <span class="link-block"> -->
-      <!-- <a target="_blank" href="" -->
-      <!-- <a target="_blank" href="https://huggingface.co/datasets/PengxiangLi/FIRE/"
-              class="external-link button is-normal is-rounded is-dark">
-              <span class="icon">
-                <i class="fa fa-database"></i>
-              </span>
-              <span>Data</span>
-            </a>
-          </span> -->
-      <!-- <span class="link-block"> -->
-      <!-- <a target="_blank" href="" -->
-      <!-- <a target="_blank" href="https://huggingface.co/li-qing/llava-next-llama3-8b-student-fire/tree/main"
-              class="external-link button is-normal is-rounded is-dark">
-              <span class="icon">
-                <i class="fa fa-share-square"></i>
-              </span>
-              <span>Model</span>
-            </a>
-          </span> -->
-      <!-- <span class="link-block"> -->
-      <!-- <a target="_blank" href="" -->
-      <!-- <a target="_blank" href="https://li-qing-fire.hf.space"
-              class="external-link button is-normal is-rounded is-dark">
-              <span class="icon">
-                <i class="fa fa-images"></i>
-              </span>
-              <span>Demo</span>
-            </a>
-          </span>
-          <span class="link-block"> -->
-      <!-- <a target="_blank" href="" -->
-      <!-- <a target="_blank" href="https://x.com/Sealiqing/status/1819279627438973133"
-              class="external-link button is-normal is-rounded is-dark">
-              <span class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1.0em" height="1.0em"
-                  viewBox="0,0,256,256">
-                  <g fill="#e9e9e9" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
-                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
-                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
-                    style="mix-blend-mode: normal">
-                    <g transform="scale(5.12,5.12)">
-                      <path
-                        d="M6.91992,6l14.2168,20.72656l-14.9082,17.27344h3.17773l13.13867,-15.22266l10.44141,15.22266h10.01367l-14.87695,-21.6875l14.08008,-16.3125h-3.17578l-12.31055,14.26172l-9.7832,-14.26172z">
-                      </path>
-                    </g>
-                  </g>
-                </svg>
-              </span>
-              <span>Twitter</span> -->
-      <!-- </a> -->
-      <!-- </span> -->
-      <!-- <span class="link-block">
-                <a href="file/clova_cvpr24_poster.pdf"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Poster (CVPR'24)</span>
-                </a>
-              </span> -->
-
-      <!-- <span class="link-block">
-                <a href="file/clova_slides.pdf"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Slides</span>
-                </a>
-              </span> -->
-
-      <!-- </div> -->
-      <!-- </div> -->
 
 
     </div>
@@ -248,62 +134,12 @@
 
 
  
-      <!-- <h1>HTML Video Player</h1> -->
-      <!-- Video Player -->
-      <!-- <h1>Video </h1> -->
-      <!-- Autoplay Video -->
-      <!-- <video width="640" height="360" autoplay muted loop>-->
-      <video width="960" height="480" controls poster="./stats/poster.png"> 
-          <source src="./mat-video.mp4" type="video/mp4">
-          <p>Your browser does not support HTML video.</p>
+ 
+      <video controls poster="./stats/poster.png">
+          <source src="./mat-video.webm" type="video/webm">
       </video>
-      <!-- </video> -->
  
 
-  
-
-    <!-- 
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <div class="publication-video">
-
-            <iframe width= 1120 height=630]  src="https://www.youtube.com/embed/PYPuZn8RjCE?si=3RO4hphplmbG_LJg"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-          </div>
-        </div>
-      </div> -->
-
-
-    <!-- <div class="section">
-      <div class="section-title">MM-TRAJ DATASET</div>
-      <div class="intro">Data that passes through the two verifiers is considered high-quality and collected in an
-        MM-Traj
-        dataset. In summary, we collect <b>23.5K data points</b> from query generation and file generation. After
-        passing through the two verifiers, <b>20K data points</b> are left with <b>15K files</b>. </div>
-      <p>Notable statistics of <img class="mat-icon" src="/icon2.png"><b>MM-TRAJ</b></p>
-
-      <br>
-      <el-card class="teaser">
-        <el-image src="./stats/stats-mm-traj.png"></el-image>
-      </el-card>
-    </div> -->
-    <!-- <el-carousel :interval="8000" height="450px">
-        <el-carousel-item>
-          <el-image class="stats-img" src="./stats/piechart.webp"></el-image>
-        </el-carousel-item>
-        <el-carousel-item>
-          <el-image class="stats-img" src="./stats/h1.webp"></el-image>
-        </el-carousel-item>
-        <el-carousel-item>
-          <el-image class="stats-img" src="./stats/h2.webp"></el-image>
-        </el-carousel-item>
-        <el-carousel-item>
-          <el-image class="stats-img" src="./stats/d1.webp"></el-image>
-        </el-carousel-item>
-      </el-carousel> -->
-    <!-- </div> -->
     <div class="section">
       <div class="section-title">Dataset Generation</div>
       <p class="intro"> We first prompt GPT-4o mini to generate <b>queries</b> and analyze what files are needed to
@@ -337,9 +173,7 @@
     </div>
 
 
-
-    <!-- We deploy real-executable tools for the agent instead of only providing tool names. Our tools are across multiple categories: web search, visual perception, image generation/editing, file understanding, multi-modal understanding, and multiple Python packages, as shown in Tab. 1. -->
-
+ 
 
     <div class="section">
       <div class="section-title">
@@ -381,82 +215,7 @@
         </el-card>
       </div>
 
-      <!-- <el-card class="stats-img-1">
-        <el-image src="./stats/Slide1.png"></el-image>
-      </el-card>
-        <br>
-            <el-card class="stats-img-1">
-        <el-image src="./stats/Slide2.png"></el-image>
-      </el-card> -->
-
-
-      <!-- <el-carousel :interval="8000" height="350px">
-        <el-carousel-item>
-          
-        </el-carousel-item>
-        <el-carousel-item>
-          <el-image class="stats-img-1" src="./results/fixed.webp"></el-image>
-        </el-carousel-item>
-        <el-carousel-item>
-          <el-image class="stats-img-1" src="./results/fixed-teacher.webp"></el-image>
-        </el-carousel-item>
-        <el-carousel-item>
-          <el-image class="stats-img-1" src="./results/free.webp"></el-image>
-        </el-carousel-item>
-
-        <el-carousel-item>
-          <el-image class="stats-img" src="./results/acc_turn.webp"></el-image>
-        </el-carousel-item>
-        <el-carousel-item>
-          <el-image class="stats-img" src="./results/atr_number.webp"></el-image>
-        </el-carousel-item>
-        <el-carousel-item>
-          <el-image class="stats-img" src="./results/adr_number.webp"></el-image>
-        </el-carousel-item>
-        <el-carousel-item>
-          <el-image class="stats-img" src="./results/rr_number.webp"></el-image>
-        </el-carousel-item>
-        <el-carousel-item>
-          <el-image class="stats-img" src="./results/at_number.webp"></el-image>
-        </el-carousel-item>
-
-      </el-carousel> -->
-      <!-- </div> -->
-      <!-- <div class="section">
-      <div class="section-title">Results</div>
-
-    </div> -->
-
-      <!-- <div class="section">
-      <div class="section-title">Examples of FIRE-100K</div>
-      <p class="intro">We randomly sampled some examples from FIRE-100K and show them here. </p>
-      <el-carousel :interval="10000" type="card" height="1400px" indicator-position="none">
-        <el-carousel-item v-for="d in dataset1" :key="d.id" :style="{ width: '1200px' }">
-          <Dialog class="example-dialog" :data="d" />
-        </el-carousel-item>
-      </el-carousel>
-    </div>
-
-    <div class="section">
-      <div class="section-title">Examples of FIRE-1M</div>
-      <p class="intro">We randomly sampled some examples from FIRE-1M and show them here. </p>
-      <el-carousel :interval="8000" type="card" height="1400px" indicator-position="none">
-        <el-carousel-item v-for="d in dataset2" :key="d.id" :style="{ width: '1200px' }">
-          <Dialog class="example-dialog" :data="d" />
-        </el-carousel-item>
-      </el-carousel>
-    </div>
- 
- 
-    <div class="section">
-      <div class="section-title">Examples of FIRE-Bench</div>
-      <p class="intro">We randomly sampled some examples from FIRE-Bench and show them here. </p>
-      <el-carousel :interval="10000" type="card" height="1200px" indicator-position="none"> 
-        <el-carousel-item v-for="d in dataset3" :key="d.id" :style="{ width: '1200px' }">
-          <Dialog class="example-dialog" :data="d" />
-        </el-carousel-item>
-      </el-carousel>
-    </div> -->
+     
     </div>
 
 
