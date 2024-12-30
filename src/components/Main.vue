@@ -95,7 +95,77 @@
           <span>arXiv</span>
         </a>
       </span>
+      <span class="link-block">
+        <a href="https://github.com/BIGAI-ML/TongAgent" class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fab fa-github"></i>
+          </span>
+          <span>Code</span>
+        </a>
+      </span>
 
+      <!-- Data Link. need changing -->
+      <!-- <span class="link-block">
+ 
+        <a target="_blank" href="https://huggingface.co/datasets/PengxiangLi/FIRE/"
+          class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fa fa-database"></i>
+          </span>
+          <span>Data</span>
+        </a>
+      </span> -->
+      <!-- <span class="link-block">
+     
+        <a target="_blank" href="https://huggingface.co/li-qing/llava-next-llama3-8b-student-fire/tree/main"
+          class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fa fa-share-square"></i>
+          </span>
+          <span>Model</span>
+        </a>
+      </span> -->
+      <!-- <span class="link-block">
+ 
+        <a target="_blank" href="https://li-qing-fire.hf.space"
+          class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+            <i class="fa fa-images"></i>
+          </span>
+          <span>Demo</span>
+        </a>
+      </span> -->
+      <!-- <span class="link-block">
+ 
+        <a target="_blank" href="https://x.com/Sealiqing/status/1819279627438973133"
+          class="external-link button is-normal is-rounded is-dark">
+          <span class="icon">
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1.0em" height="1.0em" viewBox="0,0,256,256">
+<g fill="#e9e9e9" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M6.91992,6l14.2168,20.72656l-14.9082,17.27344h3.17773l13.13867,-15.22266l10.44141,15.22266h10.01367l-14.87695,-21.6875l14.08008,-16.3125h-3.17578l-12.31055,14.26172l-9.7832,-14.26172z"></path></g></g>
+</svg>
+          </span>
+          <span>Twitter</span>
+        </a>
+      </span> -->
+      <!-- <span class="link-block">
+            <a href="file/clova_cvpr24_poster.pdf"
+               class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+              </span>
+              <span>Poster (CVPR'24)</span>
+            </a>
+          </span> -->
+
+      <!-- <span class="link-block">
+            <a href="file/clova_slides.pdf"
+               class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+              </span>
+              <span>Slides</span>
+            </a>
+          </span> -->
 
     </div>
 
@@ -133,12 +203,12 @@
     </div>
 
 
- 
- 
-      <video  width="80%" height=auto controls="/poster.png">
-          <source src="/mat-video.webm" type="video/webm">
-      </video>
- 
+
+
+    <video width="80%" height=auto controls="/poster.png">
+      <source src="/mat-video.webm" type="video/webm">
+    </video>
+
 
     <div class="section">
       <div class="section-title">Dataset Generation</div>
@@ -173,7 +243,7 @@
     </div>
 
 
- 
+
 
     <div class="section">
       <div class="section-title">
@@ -193,33 +263,47 @@
     </div>
 
 
- 
-      <div class="section">
-        <div class="section-title">Evaluation and Results </div>
-        <div class="intro">We evaluate the <b>T3-Agent</b> on two benchmarks: <b>GTA</b> and <b>GAIA</b>. The results show that the T3-Agent
-          consistently achieves improvements on two popular VLMs: <b>MiniCPM-V-8.5B</b> and <b>Qwen2-VL-7B</b>, which outperforms
-          untrained VLMs by 20%, showing the effectiveness of the proposed data synthesis pipeline, leading to
-          high-quality data for tool-usage capabilities.<br></div>
 
-        <div class="intro"><b>Metric.</b> In the <b>GTA</b> benchmark, we measure three metrics for agents, including <i><b>AnsAcc</b></i>,
-          <i><b>ToolAcc</b></i>, and <i><b>CodeExec</b></i>. <i><b>AnsAcc</b></i> measures the correctness of predicted answers. <i><b>ToolAcc</b></i> means the accuracy of tool selection and answer summary. <i><b>CodeExec</b></i> quantifies the percentage of generated codes that could be executed without errors. In the <b>GAIA</b> benchmark, we measure <i><b>AnsAcc</b></i> of its three levels.<br><br>
-        </div>
+    <div class="section">
+      <div class="section-title">Evaluation and Results </div>
+      <div class="intro">We evaluate the <b>T3-Agent</b> on two benchmarks: <b>GTA</b> and <b>GAIA</b>. The results show
+        that the T3-Agent
+        consistently achieves improvements on two popular VLMs: <b>MiniCPM-V-8.5B</b> and <b>Qwen2-VL-7B</b>, which
+        outperforms
+        untrained VLMs by 20%, showing the effectiveness of the proposed data synthesis pipeline, leading to
+        high-quality data for tool-usage capabilities.<br></div>
 
-        <div class="intro"><b>GTA Results.</b> Our agent outperforms both the closed-source Lego agent (e.g., GPT-4) and the open-source HF agent (e.g., InternVL2-8B) in solving complex tasks, demonstrating the effectiveness of our multimodal agent tuning method. For instance, tuning MiniCPM-V-8.5B improves answer accuracy, tool correctness, and code executability by 18%, 29%, and 24%, respectively. While our agent achieves higher ToolAcc than the HF agent, its weaker programming capability results in lower CodeExec and AnsAcc, highlighting the need to enhance VLMs for coding tasks.<br></div>
-        <el-card class="stats-img-1">
-          <el-image src="./stats/gta-results.png"></el-image>
-        </el-card>
-        <div class="intro"><b>GAIA Results.</b> T3-Agent outperforms agents using open-source models, such as Qwen2-VL-7B, exceeding its performance by 10%. These improvements across various VLMs validate the effectiveness of our dataset. However, T3-Agent performs worse than closed-source models (e.g., GPT-4) due to their larger model sizes and more extensive training data, which likely drive the performance gap.<br></div>
-        <el-card class="stats-img-1">
-          <el-image src="./stats/gaia-results.png"></el-image>
-        </el-card>
+      <div class="intro"><b>Metric.</b> In the <b>GTA</b> benchmark, we measure three metrics for agents, including
+        <i><b>AnsAcc</b></i>,
+        <i><b>ToolAcc</b></i>, and <i><b>CodeExec</b></i>. <i><b>AnsAcc</b></i> measures the correctness of predicted
+        answers. <i><b>ToolAcc</b></i> means the accuracy of tool selection and answer summary. <i><b>CodeExec</b></i>
+        quantifies the percentage of generated codes that could be executed without errors. In the <b>GAIA</b>
+        benchmark, we measure <i><b>AnsAcc</b></i> of its three levels.<br><br>
       </div>
 
-     
+      <div class="intro"><b>GTA Results.</b> Our agent outperforms both the closed-source Lego agent (e.g., GPT-4) and
+        the open-source HF agent (e.g., InternVL2-8B) in solving complex tasks, demonstrating the effectiveness of our
+        multimodal agent tuning method. For instance, tuning MiniCPM-V-8.5B improves answer accuracy, tool correctness,
+        and code executability by 18%, 29%, and 24%, respectively. While our agent achieves higher ToolAcc than the HF
+        agent, its weaker programming capability results in lower CodeExec and AnsAcc, highlighting the need to enhance
+        VLMs for coding tasks.<br></div>
+      <el-card class="stats-img-1">
+        <el-image src="./stats/gta-results.png"></el-image>
+      </el-card>
+      <div class="intro"><b>GAIA Results.</b> T3-Agent outperforms agents using open-source models, such as Qwen2-VL-7B,
+        exceeding its performance by 10%. These improvements across various VLMs validate the effectiveness of our
+        dataset. However, T3-Agent performs worse than closed-source models (e.g., GPT-4) due to their larger model
+        sizes and more extensive training data, which likely drive the performance gap.<br></div>
+      <el-card class="stats-img-1">
+        <el-image src="./stats/gaia-results.png"></el-image>
+      </el-card>
     </div>
 
 
-    <section class="section" id="BibTeX" style="text-align: left;">
+  </div>
+
+
+  <section class="section" id="BibTeX" style="text-align: left;">
     <div class="container is-max-desktop content" style="max-width: 100%; margin: 0 auto;">
       <h3 class="title" style="font-size: small;">
         BibTeX
@@ -241,10 +325,10 @@
   </section>
 
 
-    <div class="footer">
-      This website is inspired by <el-link href="https://mathvista.github.io/">MathVista</el-link> and <el-link
-        href="https://nerfies.github.io/">Nerfies</el-link>.
-    </div>
+  <div class="footer">
+    This website is inspired by <el-link href="https://mathvista.github.io/">MathVista</el-link> and <el-link
+      href="https://nerfies.github.io/">Nerfies</el-link>.
+  </div>
 </template>
 
 <script setup>
