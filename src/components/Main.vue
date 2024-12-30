@@ -96,7 +96,7 @@
         </a>
       </span>
       <span class="link-block">
-        <a href="https://github.com/BIGAI-ML/TongAgent" class="external-link button is-normal is-rounded is-dark">
+        <a href="https://github.com/BIGAI-ML/TongAgent/tree/release" class="external-link button is-normal is-rounded is-dark">
           <span class="icon">
             <i class="fab fa-github"></i>
           </span>
