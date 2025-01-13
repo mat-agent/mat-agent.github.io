@@ -206,7 +206,7 @@
 
 
     <video width="80%" height=auto controls="/poster.png">
-      <source src="/mat-video.webm" type="video/webm">
+      <source src="/mat-video.mp4" type="video/mp4">
     </video>
 
 
