@@ -324,15 +324,11 @@
       </h3>
       <div class="bibtex-container">
         <pre><code class="language-bibtex">
-    @article{gao2024multimodalagenttuningbuilding,
-      title={Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage}, 
-      author={Zhi Gao and Bofei Zhang and Pengxiang Li and Xiaojian Ma and Tao Yuan and Yue Fan and Yuwei Wu and Yunde Jia and Song-Chun Zhu and Qing Li},
-      year={2024},
-      eprint={2412.15606},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2412.15606}, 
-    }
+          @inproceedings{gaomulti,
+            title={Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage},
+            author={Gao, Zhi and Zhang, Bofei and Li, Pengxiang and Ma, Xiaojian and Yuan, Tao and Fan, Yue and Wu, Yuwei and Jia, Yunde and Zhu, Song-Chun and Li, Qing},
+            booktitle={The Thirteenth International Conference on Learning Representations}
+          }
 </code></pre>
       </div>
     </div>
