@@ -324,11 +324,11 @@
       </h3>
       <div class="bibtex-container">
         <pre><code class="language-bibtex">
-          @inproceedings{gaomulti,
-            title={Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage},
-            author={Gao, Zhi and Zhang, Bofei and Li, Pengxiang and Ma, Xiaojian and Yuan, Tao and Fan, Yue and Wu, Yuwei and Jia, Yunde and Zhu, Song-Chun and Li, Qing},
-            booktitle={The Thirteenth International Conference on Learning Representations}
-          }
+    @inproceedings{gao2025multi,
+      title={Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage},
+      author={Gao, Zhi and Zhang, Bofei and Li, Pengxiang and Ma, Xiaojian and Yuan, Tao and Fan, Yue and Wu, Yuwei and Jia, Yunde and Zhu, Song-Chun and Li, Qing},
+      booktitle={The Thirteenth International Conference on Learning Representations}
+    }
 </code></pre>
       </div>
     </div>
