@@ -13,7 +13,11 @@
         VLM-Driven Agent for Efficient Tool Usage
 
       </div>
-
+  
+      <div>
+        <!-- # write the conference name here,make it in the middle -->
+        <div class="conference">ICLR 2025 (Spotlight)</div>
+      </div>
 
       <div class="author-list">
 
@@ -503,7 +507,12 @@ onMounted(() => {
   font-size: 20px;
   transition: background-color 0.3s;
 }
-
+.conference {
+  text-align: center;
+  margin: 20px;
+  font-size: 1.5em;
+  color: #665;
+}
 .external-link:hover {
   background-color: #8e8f90;
 }
